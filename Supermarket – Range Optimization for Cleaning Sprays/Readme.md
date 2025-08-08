@@ -38,8 +38,6 @@ The objective is to analyze sales and product performance data to determine the 
 - **Dashboard - Supermarket.pbix** – Interactive Power BI dashboard.
 - **README.md** – Project Overview.
 
-## Source
-
 ## How to View
 1. Download **Dashboard - Supermarket.pbix**.
 2. Open it on **Power BI Desktop**.
