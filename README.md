@@ -1,66 +1,42 @@
-# 💼 Vy LUONG | Data Analyst
+# Data Analysis Portfolio
 
-Welcome to my Data Analysis portfolio! I'm a passionate and detail-oriented **Data Analyst** with a strong foundation in **SQL**, **Python**, **Power BI**, **Tableau**, and **Excel**. This portfolio showcases my end-to-end data projects — from cleaning and wrangling data to analysis, visualization, and actionable insights.
-
----
-
-## 📌 About Me
-
-I am a results-driven analyst who loves solving problems with data. My academic and professional background has helped me build a solid understanding of business and technical skills. I enjoy transforming raw data into compelling dashboards and visuals that support smart decision-making.
-
-**Core Skills**:
-- 📊 Data Visualization: Power BI, Tableau, Excel
-- 🧠 Data Analytics: Python (Pandas, NumPy, Seaborn, Matplotlib)
-- 💾 Databases & Querying: SQL (Joins, CTEs, Subqueries, Window Functions)
-- 📁 Data Cleaning & Preparation: Excel, Power Query, Pandas
-- 📎 Soft Skills: Problem-solving, Communication, Critical Thinking, Time Management
+## Contact
+- Name: Vy Luong
+- Email: [luongtonvy4work@gmail.com](mailto:luongtonvy4work@gmail.com)
+- Linkedin [https://www.linkedin.com/in/luongtonvy](https://www.linkedin.com/in/luongtonvy)
+- Portfolio Website: [https://github.com/luongtonvy](https://www.linkedin.com/in/luongtonvy)
 
 ---
 
-## 📂 Portfolio Projects
-
-### 🏥 [Hospital Emergency Room Analysis (Power BI)](URL_TO_PROJECT)
-**Tool**: Power BI  
-- Analyzed ER wait times, department performance, and patient satisfaction  
-- Built interactive dashboards to identify service bottlenecks and improvement areas
+## Overview
+This repository showcases my data analysis projects, demonstrating skills in data cleaning, transformation, visualization, and reporting. The portfolio covers projects from various domains including business analytics, finance, and operations, using tools such as Python, SQL, Power BI, Tableau and Excel.
 
 ---
 
-### 📞 [Call Center Performance Dashboard (Power BI)](URL_TO_PROJECT)  
-**Tool**: Power BI  
-- Tracked agent productivity, call trends, and customer satisfaction  
-- Suggested process improvements and highlighted service gaps
+## Tools and Technologies
+- **Languages**: Python, SQL, DAX
+- **Visualization Tools**: Power BI, Tableau, Excel
+- **Data Processing**: Python, pandas, numpy
+- **Databases**: MySQL
+- **Other**: Git, GitHub for version control
 
 ---
 
-### 📦 [Sales Performance Tracker (Excel & Power BI)](URL_TO_PROJECT)  
-**Tools**: Excel, Power BI  
-- Designed dashboards for daily sales trends, product performance, and customer behavior  
-- Recommended pricing and promotional strategies using insights
+## Project Structure
+Data_Analysis_Portfolio/
 
 ---
 
-### 📈 [Customer Churn Analysis (Python)](URL_TO_PROJECT)  
-**Tools**: Python (Pandas, Matplotlib, Seaborn)  
-- Performed EDA on customer behavior data  
-- Identified churn patterns and visualized risk segments
+## Featured Projects
 
----
+### 1. Supermarket Range Optimization for Cleaning Sprays
+- **Description**: Analyzed sales data to recommend an optimized product range for cleaning sprays.
+- **Skills**: Power BI, DAX, data modeling, sales analysis.
+- **Key Insights**: Category Perfromance Overview + Range and Space Recommendations
+- **Folder**: [`Visualization (Dashboard)/Supermarket – Range Optimization for Cleaning Sprays`](https://github.com/luongtonvy/Data_Analysis_Portfolio/tree/Homepage/Visualization%20(Dashboard)/Supermarket%20(Range%20Optimization%20for%20Cleaning%20Sprays))
 
-### 🏦 [Bank Loan Risk Analysis (SQL + Tableau)](URL_TO_PROJECT)  
-**Tools**: SQL, Tableau  
-- Queried data to explore loan approval rates, delinquency trends  
-- Built Tableau dashboards to monitor lending performance and risk metrics
-
----
-
-## 📫 Let's Connect
-
-- 🌐 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-- 💻 GitHub: [github.com/your-username](https://github.com/your-username)
-- 📧 Email: your.email@example.com
-
----
-
-> “Data is the new oil — but only when refined.”
-
+### 2. Hospital Emergency Room Performance Analysis
+- **Description**: Examined patient flow and wait times to improve emergency room efficiency.
+- **Skills**: SQL, Power BI, statistical analysis.
+- **Key Insights**: Recommended staffing adjustments that could reduce average wait time by 20%.
+- **Folder**: [`Visualization (Dashboard)/Hospital (Emergency Room) Performance`](https://github.com/luongtonvy/Data_Analysis_Portfolio/tree/Homepage/Visualization%20(Dashboard)/Hospital%20(Emergency%20Room)%20Performance)
