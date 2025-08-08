@@ -4,6 +4,12 @@
 This project focuses on range optimization for a supermarket’s cleaning sprays category.  
 The objective is to analyze sales and product performance data to determine the optimal product assortment, improve category profitability, and ensure efficient shelf space usage.
 
+## Data Visualization Dashboard
+
+<img width="2104" height="1180" alt="image" src="https://github.com/user-attachments/assets/70a8740b-1cdf-4b82-b443-64cf2cf999a8" />
+<img width="2104" height="1180" alt="image" src="https://github.com/user-attachments/assets/4daf05d8-0b13-4717-9338-60538276256e" />
+<img width="2104" height="1180" alt="image" src="https://github.com/user-attachments/assets/5d9f7293-fa72-40a9-8d3b-0ed2d5be945f" />
+
 ## Data Insight and Business Recommendations
 
 ### 1. Category Performance Overview
