@@ -36,13 +36,13 @@ The objective is to analyze sales and product performance data to determine the 
 ## Files in this Project
 - **Dataset - Supermarket.xlsx** – Raw dataset for analysis.
 - **Dashboard - Supermarket.pbix** – Interactive Power BI dashboard.
-- **README.md** – Project Overview
+- **README.md** – Project Overview.
 
 ## Source
 
 ## How to View
-1. Download **Dashboard - Supermarket.pbix**
-2. Open it on **Power BI Desktop**
-3. Use filters and slicers to explore insights interactively
+1. Download **Dashboard - Supermarket.pbix**.
+2. Open it on **Power BI Desktop**.
+3. Use filters and slicers to explore insights interactively.
 
 
