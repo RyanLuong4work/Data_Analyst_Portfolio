@@ -2,7 +2,7 @@
 
 ## Project Overview
 This project focuses on range optimization for a supermarket’s cleaning sprays category.  
-The objective is to analyze sales and product performance data to determine the optimal product assortment, improve category profitability, and ensure efficient shelf space usage.
+The objective is to analyze sales and products (Brands, Segments, Products) performance to uncover Data and find out how we can assort products, improve category profitability, and ensure efficient shelf space usage.
 
 ## Data Visualization Dashboard
 
@@ -15,29 +15,26 @@ The objective is to analyze sales and product performance data to determine the 
 ### 1. Category Performance Overview
 
 **Overperforming brands:**
-- **FRESHMIST** – High profit and above-average profit margin; strong shelf space presence.
-- **CLEANMATE** – Strong profitability and higher-than-average profit margins.
-- **BIOBURST** & **PUREHOME** – Above-average profit despite moderate shelf space allocation.
+- **FRESHMIST** – Top profit despite moderate shelf space usage, low royalty and highest item average selling price.
+- **CLEANMATE** – High profit and top shelf space usage, but low royalty and profit margin
+- **SHINEZ** – Top 2 in loyalty, profit margin and shelf space usage brand; and have low item average selling price. **(Potential Brand)**
 
 **Underperforming brands:**
-- **SPARKLEAN, MICROCLEAN, ECOPOWER, GREENGUARD** – Low profit and low margin; occupying shelf space without strong returns.
-- **SUDSNOW** – Slightly below average in profit with moderate shelf space.
-- **SHINEZ** – Higher price point but not translating into high profits.
+- **SPARKLEAN, BIOBURST, ECOPOWER, PUREHOME** – Low profit and low margin; despite of occupying high shelf space usage and loyalty, they still recorded low performance.
 
 **Performance variation across store clusters**
 - **VALUE Cluster** – Highest total sales ($13.88M) and profit ($4.66M), largest store coverage (354 stores).
 - **CORE Cluster** – Moderate sales ($11.88M) and profit ($3.92M), serving 302 stores.
-- **UP Cluster** – Lowest sales ($8.73M) and profit ($2.91M), smallest store base (208 stores). Opportunity to rationalize assortment and boost profitability.
+- **UP Cluster** – Lowest total sales ($8.73M) and profit ($2.91M), smallest store base (208 stores). **Potential to overtake CORE Cluster performance if increasing number of stores**
 
 ### 2. Range and Space Recommendations
 
-- Remove underperforming products (e.g., SPARKLEAN, MICROCLEAN) to improve category profitability.
+- Remove underperforming products to improve category profitability.
 - Organize layout to group high-demand product lines together for easier navigation.
-- Feature reliable, proven brands (**FRESHMIST**, **CLEANMATE**) prominently in all clusters.
-- Keep competitive pricing in the VALUE cluster while promoting quality/value in CORE and UP.
-- Introduce occasion-based bundles (e.g., seasonal cleaning packs) using top brands.
-- Streamlining the product range might reduce consumer choice but can improve overall profitability and simplify shelf navigation.
-- Allocating more space to high-margin products.
+- Keep competitive pricing in the VALUE cluster while promoting in CORE and UP clusters.
+- Introduce events promotion (e.g., Doctor Day -> 10% off all ANTI-BACTERIAL segment products) using top brands or clearance promotion (e.g., Golden Week -> 30% off all of BIOBURST brand products)
+- Optimize the product range (reduce underperforming products) might reduce consumer choice but can improve overall profitability and simplify shelf navigation.
+- Arrange more space to high-margin products.
 
 ## Files in this Project
 - **Dataset - Supermarket.xlsx** – Raw dataset for analysis.
