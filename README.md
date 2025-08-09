@@ -38,13 +38,13 @@ This repository showcases my data analysis projects, demonstrating skills in dat
 ## Featured Projects
 
 ### 1. Supermarket Range Optimization for Cleaning Sprays
-- **Description**: Analyzed sales data to recommend an optimized product range for cleaning sprays.
-- **Skills**: Power BI, DAX, data modeling, sales analysis.
-- **Key Insights**: Category Perfromance Overview + Range and Space Recommendations
+- **Description**: Analyze sales and products (Brands, Segments, Products) performance to uncover Data and find out how we can assort products, improve category profitability, and ensure efficient shelf space usage.
+- **Skills**: Power BI, DAX, data modeling, python, matplotlib, sales analysis.
+- **Key Insights**: Category Perfromance Overview + Range and Space Recommendations.
 - **Folder**: [`Supermarket – Range Optimization for Cleaning Sprays`](https://github.com/luongtonvy/Data_Analysis_Portfolio/tree/main/Supermarket%20–%20Range%20Optimization%20for%20Cleaning%20Sprays)
 
 ### 2. Hospital Emergency Room Performance Analysis
-- **Description**: Examined patient flow and wait times to improve emergency room efficiency.
-- **Skills**: SQL, Power BI, statistical analysis.
-- **Key Insights**: Recommended staffing adjustments that could reduce average wait time by 20%.
+- **Description**: Analyzes patient flow, wait times, and satisfaction scores to uncover the efficiency of a hospital’s Emergency Room (ER) operations. The goal is to identify performance bottlenecks, improve patient experience, and optimize resource allocation.
+- **Skills**: Power BI, statistical analysis.
+- **Key Insights**: Recommended staffing adjustments that could improve average satisfaction score and reduce average waiting time.
 - **Folder**: [`Hospital (Emergency Room) - Performance`](https://github.com/luongtonvy/Data_Analysis_Portfolio/tree/main/Hospital%20(Emergency%20Room)%20Performance)
