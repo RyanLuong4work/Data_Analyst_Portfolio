@@ -10,6 +10,15 @@ This project delivers a Power BI report that provides an end-to-end analysis of 
 <img width="2045" height="1145" alt="image" src="https://github.com/user-attachments/assets/e056da4d-2a12-4319-a044-090214e23a34" />
 
 ## Data Insight and Business Recommendations
+### 1. Product Strategy
+- **Revise low performance pizza**: Consider replacing underperforming pizzas with new seasonal or premium options.
+- **Bundle Offers**: Pair high demand pizza and underperforming pizza as a offers (for e.g: [Pizza Hut promotion](https://www.pizzahut.com.au/pizza-meals/2-large-pizzas--2-sides-2595-pick-up--3295-delivered-5095671)).
+- **Pricing adjustment**: Offer lower price for off-peak hour.
+
+### 3. Operation Strategy
+- Adjust Staffs shift as sales trend to reduce cost.
+- Launch marketing campaign for underperforming pizzas to test customers behavior before replacing it.
+- Use ingredient usage data to optimize purchasing and reduce waste.
 
 ## Files in this Project
 
@@ -27,6 +36,6 @@ This project delivers a Power BI report that provides an end-to-end analysis of 
 
 - Name: Vy Luong
 - Email: [luongtonvy4work@gmail.com](mailto:luongtonvy4work@gmail.com)
-- Linkedin [https://www.linkedin.com/in/luongtonvy](https://www.linkedin.com/in/luongtonvy)
+- Linkedin: [https://www.linkedin.com/in/luongtonvy](https://www.linkedin.com/in/luongtonvy)
 - Portfolio Website: [https://github.com/luongtonvy](https://www.linkedin.com/in/luongtonvy)
 
