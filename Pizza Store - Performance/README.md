@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The objective is to analyze sales and products (Brands, Segments, Products) performance to uncover Data and find out how we can assort products, improve category profitability, and ensure efficient shelf space usage.
+This project is a Power BI report that clearly tracks end-to-end pizza store performance, from sales trends to products/ingredients analysis. Accordingly, the managemnt team can thoroughly understand customers demand and seasonal trends.
 
 ## Data Visualization Dashboard
 
