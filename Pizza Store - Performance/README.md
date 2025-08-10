@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is a Power BI report that clearly tracks end-to-end pizza store performance, from sales trends to products/ingredients analysis. Accordingly, the managemnt team can thoroughly understand customers demand and seasonal trends.
+This project delivers a Power BI report that provides an end-to-end analysis of pizza store performance, covering from sales trends to product and ingredient analysis. The dashboard equips the Management team with deep and actionable insights into customer demand patterns and seasonal trends, supporting data-driven decision-making.
 
 ## Data Visualization Dashboard
 
