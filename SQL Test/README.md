@@ -1,4 +1,4 @@
-# 📊 Sales Performance Analysis – SQL Project
+# 📊 SQL Test Project
 
 ## 📌 Project Overview
 This project showcases my SQL data analysis skills through a series of **business-driven analytical queries** using SQL Server Management Studio 21  
