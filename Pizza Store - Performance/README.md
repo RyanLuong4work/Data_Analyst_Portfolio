@@ -1,4 +1,4 @@
-# Supermarket – Range Optimization for Cleaning Sprays
+# Pizza Store Project
 
 ## Project Overview
 
