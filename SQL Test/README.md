@@ -1,12 +1,12 @@
-# 📊 SQL Test Project
+# SQL Test Project
 
-## 📌 Project Overview
+## Project Overview
 This project showcases my SQL data analysis skills through a series of **business-driven analytical queries** using SQL Server Management Studio 21  
 The dataset simulates a retail sales environment, containing orders, products, customers, and employee dataset.
 
 ---
 
-## 📂 Dataset
+## Dataset
 The project uses **4 relational tables**:
 
 1. **`ORDERS.csv`**  
@@ -27,7 +27,7 @@ The project uses **4 relational tables**:
 
 ---
 
-## 🛠 SQL Exercises & Business Questions
+## SQL Exercises & Business Questions
 The `Final Test.sql` file contains **6 advanced SQL tasks**:
 
 **1.** Calculate the total sales of furniture products, grouped by each quarter of the year, and order the results chronologically
@@ -45,7 +45,7 @@ specifically looking at the number of orders and total profit generated for each
 
 ---
 
-## 🚀 Skills Demonstrated
+## Skills Demonstrated
 - SQL Joins
 - Aggregate Functions
 - Window Functions
@@ -57,7 +57,7 @@ specifically looking at the number of orders and total profit generated for each
 
 ---
 
-## 📎 How to Run
+## How to Run
 1. Load the CSV files into a SQL Server database (`dbo.ORDERS`, `dbo.PRODUCT`, `dbo.CUSTOMER`, `dbo.EMPLOYEES`).
 2. Open `Final Test.sql` in **SQL Server Management Studio (SSMS)**.
 3. Execute queries sequentially to reproduce analysis.
