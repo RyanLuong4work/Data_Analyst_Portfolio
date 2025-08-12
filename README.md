@@ -3,7 +3,7 @@
 ## Contact
 - Name: Ryan Luong
 - Email: [ryanluong4work@gmail.com](mailto:ryanluong4work@gmail.com)
-- Linkedin: [https://www.linkedin.com/in/ryanluong1112](https://www.linkedin.com/in/ryanluong1112)
+- Linkedin: [https://www.linkedin.com/in/ryanluong4work](https://www.linkedin.com/in/ryanluong4work)
 - Portfolio Website: [https://github.com/RyanVyLuong](https://github.com/RyanVyLuong)
 
 ---
