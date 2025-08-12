@@ -62,6 +62,6 @@ This repository showcases my data analysis projects, demonstrating skills in dat
     - User-Defined Functions (UDF)
     - Stored Procedures
     - Pivot Table
-- **Folder**: [`Pizza Store - Performance`](https://github.com/luongtonvy/Data_Analysis_Portfolio/tree/88d8780f691b3a100eaf774a049c4e9ff51c8f60/SQL%20Test)
+- **Folder**: [`SQL Test`](https://github.com/luongtonvy/Data_Analysis_Portfolio/tree/88d8780f691b3a100eaf774a049c4e9ff51c8f60/SQL%20Test)
 
 
