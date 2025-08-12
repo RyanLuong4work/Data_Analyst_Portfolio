@@ -8,6 +8,7 @@ This project delivers a Power BI report that provides an end-to-end analysis of 
 
 <img width="2045" height="1145" alt="image" src="https://github.com/user-attachments/assets/b135c398-09ac-4388-bc04-b6413431afd5" />
 <img width="2045" height="1145" alt="image" src="https://github.com/user-attachments/assets/e056da4d-2a12-4319-a044-090214e23a34" />
+<iframe title="Dashboard - Pizza Store" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=18ffe809-597a-4d5e-b1e4-04e854a0c52a&autoAuth=true&ctid=bfb9f0ad-21eb-4ed2-9f95-36befa3fa2f5&actionBarEnabled=true" frameborder="0" allowFullScreen="true"></iframe>
 
 ## Data Insight and Business Recommendations
 ### 1. Product Strategy
