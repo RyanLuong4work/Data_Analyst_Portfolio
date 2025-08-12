@@ -1,10 +1,10 @@
 # Data Analysis Portfolio
 
 ## Contact
-- Name: Vy Luong
-- Email: [luongtonvy4work@gmail.com](mailto:luongtonvy4work@gmail.com)
-- Linkedin: [https://www.linkedin.com/in/luongtonvy](https://www.linkedin.com/in/luongtonvy)
-- Portfolio Website: [https://github.com/luongtonvy](https://www.linkedin.com/in/luongtonvy)
+- Name: Ryan Luong
+- Email: [ryanluong4work@gmail.com](mailto:ryanluong4work@gmail.com)
+- Linkedin: [https://www.linkedin.com/in/ryanluong1112](https://www.linkedin.com/in/ryanluong1112)
+- Portfolio Website: [https://github.com/RyanVyLuong](https://github.com/RyanVyLuong)
 
 ---
 
