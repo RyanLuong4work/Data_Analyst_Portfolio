@@ -34,7 +34,7 @@ This repository showcases my data analysis projects, demonstrating skills in dat
 
 ## Featured Projects
 
-### 1. SQL Test
+### 1. SQL + Python - Warehouse - Sales + Customer Analysis
 - **Description**: This project showcases my **end-to-end analytics workflow** where data is prepared with SQL and analyzed & visualized in Python. The goal is to provide insights into sales, profit, customers, employees, **Churn (RFM) Analysis and Delivery SLA Analysis** for a warehouse business.
 - **Skills**: SQL, Python, Churn Analysis, SLA Analysis.
 - **Key Insights**: Build clean datasets from warehouse using SQL, Visualize sales performance and generate actionable business recommendations.
