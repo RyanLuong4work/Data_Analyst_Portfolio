@@ -5,7 +5,7 @@
 - Name: Ryan Luong
 - Email: [ryanluong4work@gmail.com](mailto:ryanluong4work@gmail.com)
 - Linkedin [https://www.linkedin.com/in/ryanluong4work](https://www.linkedin.com/in/ryanluong4work)
-- Portfolio Website: [https://github.com/ryanluong4work](https://www.linkedin.com/in/ryanluong4work)
+- Portfolio Website: [https://github.com/ryanluong4work](https://github.com/ryanluong4work)
 
 ---
 
@@ -17,7 +17,7 @@ This repository showcases my data analysis projects, demonstrating skills in dat
 ## Tools and Technologies
 - **Languages**: Python, SQL, DAX
 - **Visualization Tools**: Power BI, Tableau, Excel
-- **Data Processing**: Python, pandas, numpy
+- **Data Processing**: Python, pandas, numpy, matplotlib, seaborn
 - **Databases**: MySQL
 - **Other**: Git, GitHub for version control
 

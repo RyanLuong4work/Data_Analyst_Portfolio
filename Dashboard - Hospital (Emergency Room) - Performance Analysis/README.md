@@ -39,4 +39,4 @@ This project analyzes patient flow, wait times, and satisfaction scores to uncov
 - Name: Ryan Luong
 - Email: [ryanluong4work@gmail.com](mailto:ryanluong4work@gmail.com)
 - Linkedin [https://www.linkedin.com/in/ryanluong4work](https://www.linkedin.com/in/ryanluong4work)
-- Portfolio Website: [https://github.com/ryanluong4work](https://www.linkedin.com/in/ryanluong4work)
+- Portfolio Website: [https://github.com/ryanluong4work](https://github.com/ryanluong4work)
