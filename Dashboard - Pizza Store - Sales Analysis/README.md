@@ -1,4 +1,4 @@
-# Pizza Store Project
+# Dashboard - Pizza Store - Sales Analysis
 
 ## Project Overview
 
