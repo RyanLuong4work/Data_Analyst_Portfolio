@@ -1,4 +1,4 @@
-# Supermarket – Range Optimization for Cleaning Sprays
+# Dashboard - Supermarket – Range Optimization for Cleaning Sprays
 
 ## Project Overview
 
