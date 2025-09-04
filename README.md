@@ -24,7 +24,7 @@ This repository showcases my data analysis projects, demonstrating skills in dat
 ---
 
 ## Project Structure
- - [Data_Analyst_Portfolio](https://github.com/RyanLuong4work/Data_Analysis_Portfolio)
+ - [Data_Analyst_Portfolio](https://github.com/RyanLuong4work/Data_Analyst_Portfolio)
     - [Python - Netflix - Content Production Analysis](https://github.com/RyanLuong4work/Data_Analyst_Portfolio/tree/main/Python%20-%20Netflix%20-%20Content%20Production%20Analysis)
     - [SQL + Python - Warehouse - Sales + Customer Analysis](https://github.com/RyanLuong4work/Data_Analysis_Portfolio/tree/170a793459917fda949c35430e18265b54021e0e/SQL%20%2B%20Python%20-%20Warehouse%20-%20Sales%20%2B%20Customer%20Analysis)
     - [Dashboard - Supermarket – Range Optimization for Cleaning Sprays](https://github.com/RyanLuong4work/Data_Analysis_Portfolio/tree/170a793459917fda949c35430e18265b54021e0e/Dashboard%20-%20%20Supermarket%20%E2%80%93%20Range%20Optimization%20for%20Cleaning%20Sprays)
