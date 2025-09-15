@@ -32,6 +32,7 @@ This project analyzes patient flow, wait times, and satisfaction scores to uncov
 - Fast Track: Use [triage optimization](https://pmc.ncbi.nlm.nih.gov/articles/PMC10890971) to separate non-urgent case from urgent case
 - Increase staffing levels to anticipate demand surges (e.g., June, midnight, etc.)
 - Build/Expand General Practice & Orthopedics departments near Emergency Room
+- - Assign experienced pediatric doctors for children, reducing the risk of medical errors
 - Add more staff in the Physiotherapy and Neurology departments due to consistently long waiting times
 - Provide language support & community communication
 - Provide support service for elderly people
