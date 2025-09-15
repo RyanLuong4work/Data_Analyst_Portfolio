@@ -10,17 +10,31 @@ This project analyzes patient flow, wait times, and satisfaction scores to uncov
 <img width="1695" height="1204" alt="image" src="https://github.com/user-attachments/assets/27214927-058d-4417-9d9c-0a8fb3a259bf" />
 <img width="1696" height="1205" alt="image" src="https://github.com/user-attachments/assets/a0128c53-de99-429f-a822-7dacbe0e3146" />
 
-## Data Insight and Business Recommendations
-### 1. Reduce Waiting Time
-- The average waiting time (~35 mins) is higher than the [Government emergency department timeframe](https://www.aihw.gov.au/hospitals/topics/emergency-departments/waiting-times).
-- Use [triage optimazation](https://pmc.ncbi.nlm.nih.gov/articles/PMC10890971) to seperate non-urgent case from urgent case.
-- Increase staffing levels to anticipate demand surges (e.g., June, as shown in the dashboard).
-- Add more staff in the Physiotherapy and Neurology departments due to consistently long waiting times.
+## Data Insights
+### 1. Average Satisfactions Score is too low
+- The average waiting time (~35 mins) is higher than the [Government emergency department timeframe](https://www.aihw.gov.au/hospitals/topics/emergency-departments/waiting-times)
+- Average Satisfactions Score: 5.74/10
+- The Early Childhood age group recorded the lowest satisfaction score and the long waiting time, even though this group requires quick medical attention before conditions worsen
+➡️The main issue is patients waiting too long before seeing a doctor
 
-### 2. Improve satisfaction score
-- Although the Adult age group had the highest patient volume, performance was below average (low satisfaction scores and high waiting times).
-- The Early Childhood age group recorded the lowest average satisfaction score.
-- The Renal department had one of the shortest average waiting times but still recorded the lowest average satisfaction score.
+### 2. "Bottleneck” in Referred Patient
+- Out of a total of 3,816 transfers, most of Patients were sent to just two departments:
+~1840 to General Practice
+~1000 to Orthopedics
+➡️When these 2 departments are overloaded, the entire Emergency Room system becomes overloaded too, even if there are still enough beds and doctors available
+
+### 3. Complex Patient Characteristics
+- 36% of patients are aged 51–80, often with multiple health conditions
+- 11% of patients declined to disclose their Race
+➡️This highlights the need for a multi-language support system and specialized services for elderly patients.
+
+## Business Recommendations:
+- Fast Track: Use [triage optimization](https://pmc.ncbi.nlm.nih.gov/articles/PMC10890971) to separate non-urgent case from urgent case
+- Increase staffing levels to anticipate demand surges (e.g., June, midnight, etc.)
+- Build/Expand General Practice & Orthopedics departments near Emergency Room
+- Add more staff in the Physiotherapy and Neurology departments due to consistently long waiting times
+- Provide language support & community communication
+- Provide support service for elderly people
   
 ## Files in this Project
 
