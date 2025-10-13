@@ -15,11 +15,13 @@ This repository showcases my data analysis projects, demonstrating skills in dat
 ---
 
 ## Tools and Technologies
-- **Languages**: Python, SQL, DAX
-- **Visualization Tools**: Power BI, Tableau, Excel
-- **Data Processing**: Python
-- **Databases**: MySQL
-- **Other**: Git, GitHub for version control
+- **Data analysis tools**: Python, SQL
+- **Reporting tools**: Power BI, Excel, Google Looker Studio (Data Studio)
+- **Product management tools**: Jira, Trello, SharePoint, One Drive, Google Drive, Dropbox, etc.
+- **Data warehouse**: Microsoft Fabric
+- **Data Cloud**: Snowflake
+- **Software for ERP**: SAP S/4HANA Cloud Public Edition
+-	**Software for CRM**: Salesforce
 
 ---
 
@@ -34,13 +36,14 @@ This repository showcases my data analysis projects, demonstrating skills in dat
       - [Dashboard - Pizza Store - Sales Analysis](https://github.com/RyanLuong4work/Data_Analyst_Portfolio/tree/main/Visualization%20Tools%20(Power%20BI%2C%20Tableau%2C%20Looker%20Studio%2C%20etc.)/Dashboard%20-%20Pizza%20Store%20-%20Sales%20Analysis)
     - [SQL](https://github.com/RyanLuong4work/Data_Analyst_Portfolio/tree/main/SQL)
       - [SQL + Python - Warehouse - Sales + Customer Analysis](https://github.com/RyanLuong4work/Data_Analyst_Portfolio/tree/main/SQL/SQL%20%2B%20Python%20-%20Warehouse%20-%20Sales%20%2B%20Customer%20Analysis)
+      - [SQL - Stock Analysis](https://github.com/RyanLuong4work/Data_Analyst_Portfolio/tree/main/SQL/SQL%20-%20Stock%20analysis)
          
 ---
 
 ## Featured Projects
 
 ### 1. Python - API Scraping and Wrangling - Youtube's API search
-- **Description**: This project demonstrates my skills in scraping data using the YouTube API Search, managing API keys and quota limits. After collecting the results in JSON format, I perform data wrangling to clean and transform them into a structured DataFrame.
+- **Description**: his project demonstrates my skills in scraping data using the YouTube API Search, managing API keys and quota limits. After collecting the results in JSON format, I perform data wrangling to clean and transform them into a structured DataFrame.
 - **Skills**: Python
 - **Key Insights**: Built a Python class to manage API keys, automatically rotating them when a quota limit is reached and pausing until the next quota reset (midnight, Pacific Time). Converted raw JSON results into a clean, structured DataFrame for further analysis.
 - **Folder**: [`Python - API Scraping and Wrangling - Youtube's API search`](https://github.com/RyanLuong4work/Data_Analyst_Portfolio/tree/main/Python/Python%20-%20API%20Scraping%20and%20Wrangling%20-%20Youtube's%20API%20search)
