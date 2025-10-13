@@ -67,7 +67,7 @@ This repository showcases my data analysis projects, demonstrating skills in dat
 - **Key Insights**: Category Perfromance Overview + Range and Space Recommendations.
 - **Folder**: [`Dashboard - Supermarket – Range Optimization for Cleaning Sprays`](https://github.com/RyanLuong4work/Data_Analysis_Portfolio/tree/9c03afbb9132716e5360b79efa06278159a9f07d/Dashboard%20-%20%20Supermarket%20%E2%80%93%20Range%20Optimization%20for%20Cleaning%20Sprays)
 
-### 56. Dashboard - Hospital (Emergency Room) - Performance Analysis
+### 5. Dashboard - Hospital (Emergency Room) - Performance Analysis
 - **Description**: Analyze patient flow, wait times, and satisfaction scores to uncover the efficiency of a hospital’s Emergency Room (ER) operations. The goal is to identify performance bottlenecks, improve patient experience, and optimize resource allocation.
 - **Skills**: Power BI, statistical analysis.
 - **Key Insights**: Recommended staffing adjustments that could improve average satisfaction score and reduce average waiting time.
