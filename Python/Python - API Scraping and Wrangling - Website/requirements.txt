@@ -1,0 +1,8 @@
+requests
+python-dateutil
+numpy
+pandas
+python-dotenv
+selenium
+beautifulsoup4
+webdriver_manager
