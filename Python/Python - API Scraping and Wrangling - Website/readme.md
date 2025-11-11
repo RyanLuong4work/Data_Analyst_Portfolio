@@ -1,4 +1,4 @@
-## Competior's Analysis (Market Research) Project
+## Competitor's Analysis (Market Research) Project
 
 ### 1. Overview
 
