@@ -12,7 +12,7 @@ The dataset includes demographic attributes (age, gender, marital status), work 
 - Total leavers: 237
 - Overall attrition rate: ~16.1%
 
-#### 2.2 Where attrition is highest
+#### 2.2 Where attrition is highest?
 - By department:
   - Sales:  ~20.6%
   - Human Resources: ~19.0%
@@ -20,109 +20,54 @@ The dataset includes demographic attributes (age, gender, marital status), work 
 - By job role (top risk):
   - Sales Representatives:  ~39.8%
   - Laboratory Technicians:  ~23.9%
+ 
+#### 2.3 Who is most at risk?
+- By age:
+  - 18–25: ~35.8%
+  - 26–30: ~21.3%
+  - Older groups are much lower (about 10–14%)
 
-### 3. Data & Methodolog (Techniqal Explanation)
-#### 3.1 Data Source
+- By tenure (Years at company):
+  - 0–1 year: ~34–36%
+  - It declines noticeably after 3–5 years
+ 
+#### 2.4. Work conditions linked to attrition
+- Overtime:
+  - Yes: ~30.5%
+  - No: ~10.4%
 
-- 3 car dealership websites (public used-car listings):
-  - [Cars24](https://www.cars24.com.au/buy-used-cars-australia)
-  - [Cheap Car Co](https://www.cheapcarco.com.au/used-vehicles-rocklea/list)
-  - [Brisbane Auto Group](https://www.brisbaneautogroup.com.au)
-- Data collected directly from their car listing pages:
-  - Car Make / model / year
-  - Price
-  - Odometer (km)
-  - Body type
-  - Fuel type
-  - Transmission type
-  - Listing URL
-  - **Crawl date**
+- Job satisfaction:
+  - Satisfaction = 1 → ~22.8%
+  - Satisfaction = 4 → ~11.3%
 
-#### 3.2 Daily Crawling Logic
-- A Python script (using Selenium & BeautifulSoup) runs once per day.
-- For each website, it:
-  - Opens the listing pages
-  - Scrolls / clicks through to load all cars
-  - Save to HTML file
-  - Extracts key details for each car
-  - Save to raw CSV file
-  - Wrangling Data
-  - Save to final CSV file
+- Environmental statisfaction:
+  - Satisfaction = 1 → ~25.3%
+  - Satisfaction = 4 → ~13.5%
+ 
+### 3. Business Recommendation
+#### 3.1 Targeted retention in high-risk roles
+- Prioritise Sales, Lab Technicians, and HR staff for retention programs.
+- Review workload, career progression, and incentives for these roles.
+- Consider role-specific stay interviews.
+
+#### 3.2 Improve early-tenure experience (0–2 years)
+- Strengthen onboarding, mentoring, and buddy programs.
+- Implement check-ins at 3, 6, and 12 months for new hires.
 
 #### 3.3 Logic/How can i track sold car
 Because the websites don’t say directly “sold on this date”, I infer it from appearance/disappearance:
 - Each **car is identified** by a unique combination of fields (all columns except crawl date).
 - For each car, I track the **dates it appears** in the daily crawl -> If a car appears on multiple dates and then **stops appearing**, I treat that as sold car -> **The car was sold or removed on the date it disappeared**. Then i marked it in 'Sold' column and 'Sold Date' column will be first date it disappear.
 
-This allows me to estimate:
-- Days on market (last seen date – first seen date)
-- Number of cars sold over time, per dealer, brand, etc.
-- Delearship Revenue
+#### 3.4 Focus on satisfaction drivers
+- Low Job satisfaction or Environment satisfaction scores lead to high attrition rates.
+- Partner with line managers to address issues (manager capability, team climate, recognition).
 
-### 4. Tools and their roles
-#### 4.1 Python – Data Collection & Cleaning (Crawling and Wrangling)
-Python is the ETL engine (Extract – Transform – Load).
-**Main libraries:** selenium, BeautifulSoup, Pandas
-**Main tasks:**
-- **Web crawling:**
-  - Open each dealership website.
-  - Handle pagination or infinite scroll to load all cars.
-  - Collect page source (page_source) or specific HTML elements.
-- **Web scraping (extraction):**
-  - Use BeautifulSoup to parse HTML.
-  - Extract key fields: title, price, odometer, URL, etc.
+#### 3.5 Provide transportation to workplace
+- Distance from home is one of the side impact leading to high attrition rate, both high income and low income group (combine ~900 employees) who live far from company (>10) achieved high attrition rate.
+- Provide company bus/public transport/private transport for company staffs.
 
-- **Data cleaning & Normalise:**
-  - Convert text prices (e.g. "$23,990") into numeric values.
-  - Normalise odometer values (e.g. "45,000 km" → 45000) and group it (e.g. "71,291 km" -> "60,000 - 80,000 km").
-  - Extract Make (e.g. BMW, Mazda), Year (e.g. 2010, 2019), Model (e.g C300, Civic) from Title.
-  - Normalise Transmission (e.g. "6 SP Dual Clutch Automatic", "8 sport automatic" -> "automatic").
-  - Normalise Fuel_type (e.g "Premium Petrol", "98 Petrol" -> "petrol")
-  - Add crawl_date and compute the sold flag logic.
-  - Save to a clean master CSV that Power BI and Excel can read.
-    
-#### 4.2 Excel – Validation
-**Main tasks:**
-
-- **Quick quality checks:**
-  - Spot-check random samples of the data.
-  - Confirm that prices, odometer readings, and car details look realistic.
-
-- **Manual cleaning**
-  - Check quality of dataset before cleaning step in python.
-  - Fix obvious data entry or scraping anomalies (e.g. missing transmission but visible in image or text).
- 
-#### 4.3 Power BI – Analysis & Visualisation
-**Main tasks:**
-- **Data modelling**
-  - Load the cleaned CSV.
-  - Create relationships (e.g. dealers, brands, dates).
-  - Build calculated columns/measures.
-
-- **Dashboard & report building**
-  - Visualize.
-  - Provide clear, interactive dashboards where stakeholders can drill down into specific segments, cars, or time periods.
- 
-### 5. Project Structure
-
-```text
-Project/
-├── output/
-│   ├── csv/
-│   │   ├── Date/
-│   │   │   ├── Dealership's/Website's name/
-│   │   │   │   ├── clean_csv
-│   │   │   │   ├── raw_csv
-│   ├── html/
-│   │   ├── Date/
-│   │   │   ├── Dealership's/Website's name/
-├── crawling.ipynb/
-├── wrangling.ipynb/
-├── requirements.txt
-└── README.md
-```
-
-### 6 .Contact
+### 4 .Contact
 - Name: Ryan Luong
 - Email: [ryanluong4work@gmail.com](mailto:ryanluong4work@gmail.com)
 - Linkedin [https://www.linkedin.com/in/ryanluong4work](https://www.linkedin.com/in/ryanluong4work)
