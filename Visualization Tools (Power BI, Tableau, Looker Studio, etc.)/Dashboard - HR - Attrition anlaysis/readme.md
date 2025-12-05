@@ -54,11 +54,6 @@ The dataset includes demographic attributes (age, gender, marital status), work 
 - Strengthen onboarding, mentoring, and buddy programs.
 - Implement check-ins at 3, 6, and 12 months for new hires.
 
-#### 3.3 Logic/How can i track sold car
-Because the websites don’t say directly “sold on this date”, I infer it from appearance/disappearance:
-- Each **car is identified** by a unique combination of fields (all columns except crawl date).
-- For each car, I track the **dates it appears** in the daily crawl -> If a car appears on multiple dates and then **stops appearing**, I treat that as sold car -> **The car was sold or removed on the date it disappeared**. Then i marked it in 'Sold' column and 'Sold Date' column will be first date it disappear.
-
 #### 3.4 Focus on satisfaction drivers
 - Low Job satisfaction or Environment satisfaction scores lead to high attrition rates.
 - Partner with line managers to address issues (manager capability, team climate, recognition).
