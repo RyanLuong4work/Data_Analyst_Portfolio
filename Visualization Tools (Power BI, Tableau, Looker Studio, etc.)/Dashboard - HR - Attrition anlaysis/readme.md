@@ -1,68 +1,37 @@
-## Competitor's Analysis (Market Research) Project
+## HR Attrition Analysis Project
 
 ### 1. Overview
 
 This project analyzes workforce data of 1,470 employees to understand **employee attrition (who leaves, why they leave, and which groups are most at risk)**. Instead of manually reviewing HR spreadsheets, this dashboard provides a **data-driven view of turnover patterns**, helping HR Managers improve employee retention strategies.
 
 The dataset includes demographic attributes (age, gender, marital status), work conditions (overtime, job role, income, job satisfaction), and tenure information. With Power BI insights, managers can quickly **identify where turnover is highest and what actions can reduce future attrition**.
-
-### 2. Business context:
-#### 2.1 Overall
-- Total employees: 1,470
-- Total leavers: 237
-- Overall attrition rate: ~16.1%
-
-#### 2.2 Where attrition is highest?
-- By department:
-  - Sales:  ~20.6%
-  - Human Resources: ~19.0%
-
-- By job role (top risk):
-  - Sales Representatives:  ~39.8%
-  - Laboratory Technicians:  ~23.9%
  
-#### 2.3 Who is most at risk?
-- By age:
-  - 18–25: ~35.8%
-  - 26–30: ~21.3%
-  - Older groups are much lower (about 10–14%)
-
-- By tenure (Years at company):
-  - 0–1 year: ~34–36%
-  - It declines noticeably after 3–5 years
- 
-#### 2.4. Work conditions linked to attrition
-- Overtime:
-  - Yes: ~30.5%
-  - No: ~10.4%
-
-- Job satisfaction:
-  - Satisfaction = 1 → ~22.8%
-  - Satisfaction = 4 → ~11.3%
-
-- Environmental statisfaction:
-  - Satisfaction = 1 → ~25.3%
-  - Satisfaction = 4 → ~13.5%
- 
-### 3. Business Recommendation
-#### 3.1 Targeted retention in high-risk roles
+### 2. Overall Business Recommendations
+#### 2.1 Targeted retention in high-risk roles
 - Prioritise Sales, Lab Technicians, and HR staff for retention programs.
 - Review workload, career progression, and incentives for these roles.
 - Consider role-specific stay interviews.
 
-#### 3.2 Improve early-tenure experience (0–2 years)
+#### 2.2 Improve early-tenure experience (0–2 years)
 - Strengthen onboarding, mentoring, and buddy programs.
 - Implement check-ins at 3, 6, and 12 months for new hires.
 
-#### 3.4 Focus on satisfaction drivers
+#### 2.4 Focus on satisfaction drivers
 - Low Job satisfaction or Environment satisfaction scores lead to high attrition rates.
 - Partner with line managers to address issues (manager capability, team climate, recognition).
 
-#### 3.5 Provide transportation to workplace
+#### 2.5 Provide transportation to workplace
 - Distance from home is one of the side impact leading to high attrition rate, both high income and low income group (combine ~900 employees) who live far from company (>10) achieved high attrition rate.
 - Provide company bus/public transport/private transport for company staffs.
 
-### 4 .Contact
+### 3. Deeper insights
+#### 3.1 Gender
+- Abbreviation: M - Male; F - Female
+- In most age groups, **M attrition rates are higher than F**, **except for the 18–25 age group**, where females leave more frequently.
+- **M record the highest attrition in the Sales department**, while **F show the highest attrition in the Human Resources department**.
+- **M employees have a high attrition rate in their first year** (36.4%), whereas **F attrition peaks later in tenure**, including 50% at year 23 and 100% at year 40 (small sample size effect).
+
+### 4. Contact
 - Name: Ryan Luong
 - Email: [ryanluong4work@gmail.com](mailto:ryanluong4work@gmail.com)
 - Linkedin [https://www.linkedin.com/in/ryanluong4work](https://www.linkedin.com/in/ryanluong4work)
