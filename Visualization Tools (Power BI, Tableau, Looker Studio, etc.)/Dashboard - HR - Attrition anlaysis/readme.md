@@ -24,12 +24,13 @@ The dataset includes demographic attributes (age, gender, marital status), work 
 - Distance from home is one of the side impact leading to high attrition rate, both high income and low income group (combine ~900 employees) who live far from company (>10) achieved high attrition rate.
 - Provide company bus/public transport/private transport for company staffs.
 
-### 3. Deeper insights
+### 3. Deeper/Detailed insights
 #### 3.1 Gender
 - Abbreviation: M - Male; F - Female
 - In most age groups, **M attrition rates are higher than F**, **except for the 18–25 age group**, where females leave more frequently.
 - **M record the highest attrition in the Sales department**, while **F show the highest attrition in the Human Resources department**.
 - **M employees have a high attrition rate in their first year** (36.4%), whereas **F attrition peaks later in tenure**, including 50% at year 23 and 100% at year 40 (small sample size effect).
+- For both genders, **single employees have significantly higher attrition** (F: 23.6%, M: 26.9%) compared with divorced (F: 7.7%, M: 11.4%) and married employees (F: 11.4%, M: 13.2%), suggesting that **relationship status may influence retention and stability**.
 
 ### 4. Contact
 - Name: Ryan Luong
